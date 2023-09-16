@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #111;
+    padding-bottom: 300px;
+}
+
+body:before{
+    content: 'parallax';
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 16em;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: 1px #555;
+}
+
+.paragraph{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.paragraph h2{
+    margin-left: 200px;
+    font-size: 4em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.paragraph{
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

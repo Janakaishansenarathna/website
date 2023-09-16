@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+    font-family
+}
+
+body{
+    background: #111;
+}
+
+.header3{
+    background-color: #111;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 160vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#janaka{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+#janaka h2{
+}
+
+#janaka .containerparal{
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#janaka .containerparal .imgBx{
+    position: relative;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#janaka .containerparal .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#janaka .containerparal .caption{
+    position: absolute;
+    right: 0;
+    background: #333;
+    z-index: 1;
+    max-width: 400px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+/*2nd parallx image with caption*/
+
+#ishan{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+#ishan h2{
+}
+
+#ishan .containerparall{
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ishan .containerparall .imgBxx{
+    position: relative;
+    right: 0;
+    margin-left: 190px;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#ishan .containerparall .imgBxx img{
+    position: absolute;
+    margin-top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#ishan .containerparall .captionn{
+    position: absolute;
+    left: 0;
+    background: #333;
+    z-index: 1;
+    max-width: 400px;
+    color: #fff;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    margin-top: 260px;
+ 
+}
+
+.header3 #para{
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
