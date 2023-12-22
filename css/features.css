@@ -1,11 +1,11 @@
-#features{
-  
-}
 
-# Features
 --------------------------------------------------------------*/
 .features .content+.content {
   margin-top: 100px;
+}
+
+.features{
+  background-color: #1b1b47;
 }
 
 .features .content h3 {

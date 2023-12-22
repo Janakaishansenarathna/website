@@ -58,6 +58,7 @@
   --------------------------------------------------------------*/
   .about {
     background: url("assets6/img/about-bg.jpg") center center;
+    background-color: #1b1b47;
     background-size: cover;
     position: relative;
     padding: 80px 0;
@@ -81,7 +82,7 @@
   
   .about:before {
     content: "";
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.333);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -172,110 +173,6 @@
     .about {
       background-attachment: fixed;
     }
-  }
-  
-  /*--------------------------------------------------------------
-  # Why Us
-  --------------------------------------------------------------*/
-  #why-us .container .section-title h2 {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    position: relative;
-    color: #ffffff;
-    text-align: left;
-}
-  .why-us{
-    padding: 0%;
-    margin: 0%;
-    padding-left: 80px;
-    padding-right: 80px;
-  }
-
-  .why-us .box {
-    padding: 50px 30px;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-    transition: all ease-in-out 0.3s;
-    background: #1a1814;
-  }
-  
-  .why-us .box span {
-    display: block;
-    font-size: 28px;
-    font-weight: 700;
-    color: #cda45e;
-  }
-  
-  .why-us .box h4 {
-    font-size: 24px;
-    font-weight: 600;
-    padding: 0;
-    margin: 20px 0;
-    color: rgba(255, 255, 255, 0.8);
-  }
-  
-  .why-us .box p {
-    color: #aaaaaa;
-    font-size: 15px;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .why-us .box:hover {
-    background: #cda45e;
-    padding: 30px 30px 70px 30px;
-    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
-  }
-  
-  .why-us .box:hover span,
-  .why-us .box:hover h4,
-  .why-us .box:hover p {
-    color: #fff;
-  }
-
- #why-us{
-    margin-top: 30px;
- }
-  
-  #why-us .section-bg {
-    background-color: #1a1814;
-  }
-  
-  #why-us .section-title {
-    padding-bottom: 40px;
-    text-align: left;
-    font-family: "Nunito", sans-serif;
-  }
-  
-  #why-us .section-title h2 {
-    font-size: 14px;
-    font-weight: 500;
-    padding: 0;
-    line-height: 1px;
-    margin: 0 0 5px 0;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #aaaaaa;
-    font-family: "Poppins", sans-serif;
-  }
-  
-  #why-us .section-title h2::after {
-    content: "";
-    width: 120px;
-    height: 1px;
-    display: inline-block;
-    background: rgba(255, 255, 255, 0.2);
-    margin: 4px 10px;
-  }
-  
-  #why-us .section-title p {
-    margin: 0;
-    margin: 0;
-    font-size: 36px;
-    font-weight: 700;
-    font-family: "Playfair Display", serif;
-    color: #cda45e;
   }
   
   

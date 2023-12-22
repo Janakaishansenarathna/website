@@ -1,6 +1,14 @@
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
+.clients{
+  background-color: #ffffff;
+}
+
+.clients h2{
+  color: black;
+}
+
 .clients .clients-wrap {
   border-top: 1px solid #eceff0;
   border-left: 1px solid #eceff0;

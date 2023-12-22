@@ -9,8 +9,9 @@
   }
   
   .portfolio h2 {
-    color: #199EB8;
+    color: #000000;
     margin-bottom: 25px;
+    font-size: 32px;
   }
   
   .portfolio-grid {

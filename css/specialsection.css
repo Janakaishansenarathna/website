@@ -2,11 +2,24 @@
 # Specials
 --------------------------------------------------------------*/
 .specials {
+  padding-top: 50px;
     overflow: hidden;
+    height: 100vh;
+  }
+
+  .specials h2{
+    padding-top: 40px;
+  }
+
+  .specials .row{
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
   }
   
   .specials .nav-tabs {
     border: 0;
+    padding-top: 60px;
   }
   
   .specials .nav-link {

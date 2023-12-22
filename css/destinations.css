@@ -1,4 +1,9 @@
-  .tm-page-wrap { 
+ #destinations .desti{
+    color: black;
+    font-size: 32px;
+ }
+ 
+ .tm-page-wrap { 
     max-width: 1400px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
     background: white;
@@ -8,7 +13,7 @@
     max-width: 1400px;
     margin: 0 auto;
     margin-top: 20px; 
-    margin-bottom: 20px;   
+    margin-bottom: 0px;   
 }
 
 .tm-content-box { box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }

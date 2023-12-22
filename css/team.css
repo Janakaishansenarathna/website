@@ -1,6 +1,14 @@
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+.team{
+  background-color: #1b1b47;
+}
+
+.team1{
+  background-color: #1b1b47;
+}
+
 .team1 .member1 {
     text-align: center;
     margin-bottom: 20px;
